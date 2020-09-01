@@ -13,7 +13,7 @@ Navbar is the root component, it is the container for all the links that are pro
 
 ```javascript
 <Router>
-	<Navbar className="Your-ClassName-Here">
+    <Navbar className="Your-ClassName-Here">
     	{/* Links/Menus will go here */}
     </Navbar>
 </Router>
@@ -28,7 +28,7 @@ This component is used to create a basic navigation link to another page, it doe
 
 ```javascript
 <Router>
-	<Navbar className="Your-ClassName-Here">
+    <Navbar className="Your-ClassName-Here">
     	<MenuItem className="Your-ClassName-Here" Title="Home" Url="/" />
     </Navbar>
 </Router>
@@ -49,9 +49,9 @@ This component is used to create a link that has a sub-menu that is activated wh
 
 ```javascript
 <Router>
-	<Navbar className="Your-ClassName-Here">
+    <Navbar className="Your-ClassName-Here">
     	<SubMenu className="Your-ClassName-Here" Title="Home" Url="/">
-        	<MenuItem className="Your-ClassName-Here" Title="Menu Link" Url="/menuLink" />
+            <MenuItem className="Your-ClassName-Here" Title="Menu Link" Url="/menuLink" />
         <SubMenu/>
     </Navbar>
 </Router>
