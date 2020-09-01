@@ -1,0 +1,48 @@
+.SubMenu {
+  position: relative;
+}
+
+.SubMenu.active > a {
+    color: black;
+}
+
+.SubMenu > .SubMenu__content {
+  position: absolute;
+  width: max-content;
+  border: black solid 1px;
+  left: 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.349);
+}
+
+.SubMenu > .SubMenu__content > .MenuItem,
+.SubMenu > .SubMenu__content > .SubMenu > .MenuItem {
+  padding: 5px 10px;
+}
+
+.SubMenu
+  > .SubMenu__content
+  > .SubMenu
+  > .SubMenu__content {
+  position: absolute;
+  left: 100%;
+  top: 0px;
+}
+
+.MenuCSS-enter {
+  opacity: 0;
+}
+
+.MenuCSS-enter-active {
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.MenuCSS-exit {
+  opacity: 1;
+}
+
+.MenuCSS-exit-active {
+  opacity: 0;
+  transition: all 200ms;
+}

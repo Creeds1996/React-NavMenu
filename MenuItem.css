@@ -1,0 +1,22 @@
+.MenuItem {
+  display: flex;
+  align-items: center;
+  color: gray;
+  text-decoration: none;
+}
+
+.MenuItem:hover {
+  color: black;
+}
+
+.Navbar > .MenuItem,
+.Navbar > .SubMenu > .MenuItem {
+  margin-left: 10px;
+  height: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.MenuItem h3 {
+  margin: 0px;
+}
