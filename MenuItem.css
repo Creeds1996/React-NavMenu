@@ -17,6 +17,6 @@
   align-items: center;
 }
 
-.MenuItem h3 {
-  margin: 0px;
+.MenuItem .MenuItem-Title {
+  font-size: 1.5rem;
 }
